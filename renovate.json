@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone",
+    ":dependencyDashboardApproval"
+  ],
+  "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeHighest"]
+}
