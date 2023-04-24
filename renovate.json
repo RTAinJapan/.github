@@ -6,5 +6,6 @@
     ":prConcurrentLimitNone",
     ":dependencyDashboardApproval"
   ],
+  "rangeStrategy": "bump",
   "postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeHighest"]
 }
